@@ -1,0 +1,81 @@
+.caard{
+  background-color: orange;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card_number{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+}
+.span{
+  color: black;
+  font-weight: bold;
+  opacity: 70%;
+}
+.notification_ul{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.items_hover{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor:not-allowed;
+}
+.items_hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.items_hover:hover {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0px 5px 0px;
+}
+.items_hover:active{
+    transform: translateY(5px);
+}
+.menu_button{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar{
+  background-color: #8636b4;
+  border-radius: 10px;
+  width: 4px;
+  /* display: none; */
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 119, 255);
+  border-radius: 10px;
+}
+#heading_border{
+  border: solid black;
+}
+table, th, td {
+  border: 3px solid black;
+  font-family: serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+/* summary:hover{
+  background-color:#4CAF50;
+  color: #000;
+} */
+.sale_hover{
+  background-color:#4CAF50;
+  color: #000;
+}
+a{
+  color: white;
+}
